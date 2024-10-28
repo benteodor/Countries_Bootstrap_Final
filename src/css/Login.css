@@ -1,0 +1,135 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #2b5876, #4e4376);
+    padding: 2rem;
+    color: white !important;
+}
+
+.auth-card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    overflow: hidden;
+    max-width: 400px;
+    width: 100%;
+    color: white !important;
+}
+
+.auth-card-body {
+    padding: 2rem;
+}
+
+.auth-card-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white !important;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    color: white !important;
+}
+
+.auth-input-group {
+    margin-bottom: 1.5rem;
+}
+
+.auth-label {
+    font-size: 1rem;
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: white !important;
+}
+
+.auth-input {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+    width: 100%;
+}
+
+.auth-input:focus {
+    outline: none;
+    border-color: #4e4376;
+    box-shadow: 0 0 5px rgba(78, 67, 118, 0.4);
+}
+
+.auth-btn {
+    background-color: #4e4376;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.auth-btn:hover {
+    background-color: #6e5a97;
+}
+
+.auth-btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(78, 67, 118, 0.4);
+}
+
+
+
+/* Button styling */
+
+.btn-primary {
+    background-color: #3a5c76 !important;
+    /* Deep, muted blue */
+    border: none !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+    padding: 12px !important;
+    font-size: 1rem !important;
+    border-radius: 8px !important;
+    width: 100% !important;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.btn-primary:hover {
+    background-color: #4e6d8a !important;
+    /* Slightly lighter blue */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+
+    /* Adds a soft shadow */
+}
+
+
+
+.auth-card {
+    background-color: #3e4152 !important;
+    /* Dark muted purple */
+    border-radius: 12px !important;
+    padding: 2rem !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+    color: #ffffff !important;
+}
+
+#root {
+    background: linear-gradient(to bottom right, #2b5876, #4e4376) !important;
+}
+
+.text-center {
+    color: white !important;
+}
+
+.form-group label {
+    color: white !important;
+}
